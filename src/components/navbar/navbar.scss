@@ -1,0 +1,42 @@
+
+.root {
+  height: 100%;
+  width: 100%;
+  display: flex; 
+  flex-flow: column nowrap;
+  border-right: rgb(255, 255, 255) 0.01rem solid;
+  
+}
+
+.navbarProfile {
+  margin-top: 20%; 
+  flex: 0 0 auto;
+}
+
+.navbarContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.Pages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin-top: -100%
+  
+}
+
+.link {
+  flex-flow: column nowrap;
+  color: white;
+  font-size: 1.3rem; 
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+.projects {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.project-container {
+  width: 80%;
+  height: 20vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-bottom: 2rem;
+
+  .title {
+    font-weight: 800;
+    font-size: 150%;
+    margin-bottom: 1rem;
+  }
+}

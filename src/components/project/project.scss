@@ -1,0 +1,13 @@
+.project {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  outline: 1px solid rgb(80, 80, 80);
+  flex-flow: column wrap;
+
+  .description {
+    display: flex;
+    flex-flow: column nowrap;
+    overflow: auto;
+  }
+}
