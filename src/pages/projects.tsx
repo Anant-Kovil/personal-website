@@ -1,6 +1,5 @@
 import { Box, Container, Typography } from "@mui/material"
 import { Project } from "../components/project/project"
-
 export const Projects = () => {
   return (
     <Container>
