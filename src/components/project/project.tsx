@@ -1,5 +1,5 @@
 import { Box, Chip, Paper, Typography } from "@mui/material"
-import DailyUpdates from './assets/DailyUpdates.png';
+import DailyUpdates from '../../assets/DailyUpdates.png';
 import FashionRecommendation from './assets/FashionRecommendation.png'
 import Neurosentry from './assets/Neurosentry.png'
 
