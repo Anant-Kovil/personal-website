@@ -1,4 +1,4 @@
-This is my personal website.
+# Anant's Personal Website
 
 Things that will be added
 - [x] Home page
