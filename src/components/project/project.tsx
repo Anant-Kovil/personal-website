@@ -10,7 +10,7 @@ export const Project = () => {
         <Typography variant="h6" sx={{fontWeight: 300, mb: 1}}>a chrome extension</Typography>
         <Typography >Here's the mvp version of neurosentry, an application designed to help you understand your cognitive states and enhance productivity. The beta chrome extension allows you to connect to a BCI and measure your focus while working on a chromium based browser. The extension's dashboard gives you an simple way to glance at which sites you are most focused on when working and when you may need a break.
         </Typography>
-        <Chip sx={{mt:1, mb:1, mr:1}} label="🐦 Twitter" color="primary" onClick={()=>{window.open('https://x.com/Anant_world/status/1799822620894044626',"_blank")}} />
+        <Chip sx={{mt:1, mb:1, mr:1}} label="Twitter" color="primary" onClick={()=>{window.open('https://x.com/Anant_world/status/1799822620894044626',"_blank")}} />
       </Box>
       <Box component='img' sx={{width: '25%'}}
           src="/Neurosentry.png">
