@@ -7,7 +7,7 @@ export const Main = () => {
       <div>
         <Typography>👋 Hey, hope your day is going well</Typography>
         <Typography mt={2}>I'm a Engineer + Designer, exploring the future of human augmentation through wearable devices. I'm also a 4th year student study CS + Business.</Typography>
-        <Typography mt={2}>Here are a few areas I have conviction in:</Typography>
+        <Typography mt={2}>Current areas of interest:</Typography>
         <Typography sx={{fontWeight:'300'}}>• Neurotech</Typography>
         <Typography sx={{fontWeight:'300'}}>• Forms of Communication</Typography>
         <Typography sx={{fontWeight:'300'}}>• Biosensors</Typography>
