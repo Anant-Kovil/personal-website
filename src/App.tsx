@@ -1,7 +1,8 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import { Main } from "./pages/main";
 import { Navbar } from './components/navbar/navbar';
 import { Projects } from './pages/projects';
+import { Error } from './pages/404';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Main />}></Route>
             <Route path="/projects" element={<Projects />}></Route>
+            <Route path="*" element={<Error />}></Route>
           </Routes>
       </Router>
     </div>
