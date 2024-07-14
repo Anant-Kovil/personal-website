@@ -9,6 +9,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import MenuIcon from '@mui/icons-material/Menu';
+import { useNavigate } from 'react-router-dom';
 
 const pages = ['projects'];
 
@@ -22,6 +23,8 @@ export const Navbar = () => {
     setAnchorElNav(null);
   };
 
+  const navigate = useNavigate();
+
   return (
     <AppBar sx={{mt:1, mb:1}} color="transparent" position="static" elevation={0} >
       <Container maxWidth="xl">
@@ -30,7 +33,7 @@ export const Navbar = () => {
             variant="h5"
             noWrap
             component="a"
-            href="/"
+            onClick={()=> {navigate('/')}}
             sx={{
               mr: 2,
               display: { xs: 'none', sm: 'flex' },
@@ -49,7 +52,7 @@ export const Navbar = () => {
             variant="h5"
             noWrap
             component="a"
-            href="/"
+            onClick={()=> {navigate('/')}}
             sx={{
               alignSelf: 'center',
               display: { xs: 'flex', sm: 'none' },
@@ -101,7 +104,7 @@ export const Navbar = () => {
               fontSize:'1rem',
               color: 'inherit',
               textDecoration: 'none',
-            }} variant="h6" noWrap component="a" href="/projects" textAlign="center">{page}</Typography>
+            }} variant="h6" noWrap component="a" onClick={()=> {navigate('/projects')}} textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -114,7 +117,7 @@ export const Navbar = () => {
                 onClick={handleCloseNavMenu}
                 sx={{ alignSelf: 'center', color: 'white', display: 'block' }}
               >
-                <Button color='primary' variant="outlined" href='/projects'>{page}</Button>
+                <Button color='primary' variant="outlined" onClick={()=> {navigate('/projects')}}>{page}</Button>
           </Button>
             ))}
           </Box>
