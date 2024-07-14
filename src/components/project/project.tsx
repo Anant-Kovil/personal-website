@@ -1,7 +1,7 @@
 import { Box, Chip, Paper, Typography } from "@mui/material"
-import DailyUpdates from '../../DailyUpdates.png';
-import FashionRecommendation from '../../FashionRecommendation.png'
-import Neurosentry from '../../Neurosentry.png'
+import DailyUpdates from '../assets/DailyUpdates.png';
+import FashionRecommendation from '../assets/FashionRecommendation.png'
+import Neurosentry from '../assets/Neurosentry.png'
 
 export const Project = () => {
 
