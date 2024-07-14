@@ -1,11 +1,13 @@
 import { Box, Chip, Paper, Typography } from "@mui/material"
-const {BASE_URL} = import.meta.env;
+import DailyUpdates from './DailyUpdates.png';
+import FashionRecommendation from './FashionRecommendation.png'
+import Neurosentry from './Neurosentry.png'
 
 export const Project = () => {
 
-  const neurosentryImg = `${BASE_URL}/Neurosentry.png`
-  const FashionRecommendation = `${BASE_URL}/FashionRecommendation.png`
-  const DailyUpdates = `${BASE_URL}/DailyUpdates.png`
+  const neurosentryImg = `${Neurosentry}`
+  const FashionRecommendationImg = `${FashionRecommendation}`
+  const DailyUpdatesImg = `${DailyUpdates}`
 
 
   return (
@@ -32,7 +34,7 @@ export const Project = () => {
         <Chip sx={{mt:1, mb:1, mr: 1}} label="Presentation" color="primary" onClick={()=>{window.open('https://docs.google.com/presentation/d/1_KnRXHKbEKzPEyrd9yvJq4T2mfHuiqz2Ux_W-NuHJdU/edit?usp=sharing')}} />
       </Box>
       <Box component='img' sx={{width: '25%'}}
-          src={FashionRecommendation}>
+          src={FashionRecommendationImg}>
       </Box>
     </Paper>
     <Paper variant="outlined" sx={{"&:hover": { boxShadow: 6 }, mb:2, maxWidth:'lg', maxHeight:'md', display: 'flex', flexDirection: { xs: 'column', md: 'row' },}} elevation={8}>
@@ -44,7 +46,7 @@ export const Project = () => {
         <Chip sx={{mt:1, mb:1, mr:1}} label="Website" color="primary" onClick={()=>{window.open('https://daily-updates-1.web.app/')}} />
       </Box>
       <Box component='img' sx={{width: '25%'}}
-        src={DailyUpdates}>
+        src={DailyUpdatesImg}>
       </Box>
     </Paper>
     
