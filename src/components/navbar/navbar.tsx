@@ -23,7 +23,7 @@ export const Navbar = () => {
   };
 
   return (
-    <AppBar sx={{mt:1, mb:1}}color="transparent" position="static" elevation={0} >
+    <AppBar sx={{mt:1, mb:1}} color="transparent" position="static" elevation={0} >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
