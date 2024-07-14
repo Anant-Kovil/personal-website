@@ -6,19 +6,13 @@ import { Projects } from './pages/projects';
 function App() {
 
   return (
-    <div id="appRoot">
+    <div>
       <Router>
-        <div className="content">
-          <div className="navbar">
             <Navbar/>
-          </div>
-        <div className="mainContent">
           <Routes>
             <Route path="/" element={<Main />}></Route>
             <Route path="/projects" element={<Projects />}></Route>
           </Routes>
-        </div>
-        </div>
       </Router>
     </div>
   )

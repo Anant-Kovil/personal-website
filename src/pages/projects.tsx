@@ -1,25 +1,17 @@
-import "./projects.scss"
+import { Box, Container, Typography } from "@mui/material"
 import { Project } from "../components/project/project"
 
 export const Projects = () => {
   return (
-    <div>
-    <div className="header">
-      <div className="title">
-        projects
-      </div>
-      <div className="description">
-        here are some of the few projects i've been working 
+    <Container>
+    <Typography variant="h5" sx={{fontWeight: 500 }} mb={1} mt={1}>projects</Typography>
+    <Typography mb={2}>here are some of the few projects i've been working 
         on recently. feel free to reach out anytime if you 
         are curious about them or if you wanna collab on a 
-        project!
-      </div>
-    </div>
-    <div className="projects">
-      <div className="project-container">
+        project!</Typography>
+      <Box sx={{display: 'flex'}}>
         <Project />
-      </div>
-    </div>
-    </div>
+      </Box>
+    </Container>
   )
 }
