@@ -42,6 +42,7 @@ export const Navbar = () => {
               letterSpacing: '-0.05rem',
               color: 'inherit',
               textDecoration: 'none',
+              '&:hover': {cursor: 'pointer'},
             }}
           >
             Anant Kovil
@@ -61,6 +62,7 @@ export const Navbar = () => {
               letterSpacing: '-0.05rem',
               color: 'inherit',
               textDecoration: 'none',
+              '&:hover': {cursor: 'pointer'},
             }}
           >
             Anant Kovil
