@@ -4,5 +4,5 @@ Things that will be added
 - [x] Home page
 - [x] Projects
 - [ ] Blog
-- [ ] Pour Over Coffee Tips
+- [ ] Pour Over Coffee
 - [ ] Books
