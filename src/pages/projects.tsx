@@ -6,7 +6,7 @@ export const Projects = () => {
     <Typography variant="h5" sx={{fontWeight: 500 }} mb={1} mt={1}>projects</Typography>
     <Typography mb={2}>here are some of the few projects i've been working 
         on recently. feel free to reach out anytime if you 
-        are curious about them or if you wanna collab on a 
+        are curious about them or want to collab on a 
         project!</Typography>
       <Box sx={{display: 'flex'}}>
         <Project />

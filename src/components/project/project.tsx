@@ -26,7 +26,7 @@ export const Project = () => {
     </Paper>
     <Paper variant="outlined" sx={{"&:hover": { boxShadow: 6 }, mb:2, maxWidth:'lg', maxHeight:'md', display: 'flex', flexDirection: { xs: 'column', md: 'row' },}} elevation={8}>
       <Box sx={{ml:1, mr:1}}>
-        <Typography variant="h6" sx={{ fontWeight: 500}} >Fashion Recommentation using CLIP + Deepfashion Dataset</Typography>
+        <Typography variant="h6" sx={{ fontWeight: 500}} >Fashion Recommendation using CLIP + Deepfashion Dataset</Typography>
         <Typography variant="h6" sx={{fontWeight: 300, mb: 1}}>a jupyter notebook</Typography>
         <Typography >The application generates embeddings from a dataset of over 300k images using Openai's CLIP model. These embeddings are uploaded into Pinecone and the juypter notebook can query the embeddings from Pinecone to recommend clothing based on an uploaded image. The dataset only has female clothing, looking to enhance this project by querying with a larger dataset.  
         </Typography>
