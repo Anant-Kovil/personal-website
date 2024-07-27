@@ -13,7 +13,7 @@ export const Project = () => {
   return (
     <div>
     <Paper variant="outlined" sx={{"&:hover": { boxShadow: 6 }, mb:2, maxWidth:'lg', maxHeight:'md', display: 'flex',   flexDirection: { xs: 'column', md: 'row' },}} elevation={5}>
-      <Box sx={{ml:1, mr:1}}>
+      <Box sx={{ml:1.5, mr:1.5, mt: 0.5}}>
         <Typography variant="h6" sx={{ fontWeight: 500}} >Neurosentry</Typography>
         <Typography variant="h6" sx={{fontWeight: 300, mb: 1}}>a chrome extension</Typography>
         <Typography >Here's the mvp version of neurosentry, an application designed to help you understand your cognitive states and enhance productivity. The beta chrome extension allows you to connect to a BCI and measure your focus while working on a chromium based browser. The extension's dashboard gives you an simple way to glance at which sites you are most focused on when working and when you may need a break.
@@ -25,7 +25,7 @@ export const Project = () => {
       </Box>
     </Paper>
     <Paper variant="outlined" sx={{"&:hover": { boxShadow: 6 }, mb:2, maxWidth:'lg', maxHeight:'md', display: 'flex', flexDirection: { xs: 'column', md: 'row' },}} elevation={8}>
-      <Box sx={{ml:1, mr:1}}>
+      <Box sx={{ml:1.5, mr:1.5, mt: 0.5}}>
         <Typography variant="h6" sx={{ fontWeight: 500}} >Fashion Recommendation using CLIP + Deepfashion Dataset</Typography>
         <Typography variant="h6" sx={{fontWeight: 300, mb: 1}}>a jupyter notebook</Typography>
         <Typography >The application generates embeddings from a dataset of over 300k images using Openai's CLIP model. These embeddings are uploaded into Pinecone and the juypter notebook can query the embeddings from Pinecone to recommend clothing based on an uploaded image. The dataset only has female clothing, looking to enhance this project by querying with a larger dataset.  
@@ -38,7 +38,7 @@ export const Project = () => {
       </Box>
     </Paper>
     <Paper variant="outlined" sx={{"&:hover": { boxShadow: 6 }, mb:2, maxWidth:'lg', maxHeight:'md', display: 'flex', flexDirection: { xs: 'column', md: 'row' },}} elevation={8}>
-      <Box sx={{ml:1, mr:1}}>
+      <Box sx={{ml:1.5, mr:1.5, mt: 0.5}}>
         <Typography variant="h6" sx={{ fontWeight: 500}} >Daily Updates</Typography>
         <Typography variant="h6" sx={{fontWeight: 300, mb: 1}}>a web app</Typography>
         <Typography >An application to keep you accountable on what you have been working. Users are able to add votes and see other people's updates over time. Additionally, there is an option to upvote a given post, which will rank the post higher in everyone's feed. 
