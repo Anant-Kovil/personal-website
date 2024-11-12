@@ -16,7 +16,7 @@ export const Main = () => {
         <Typography sx={{fontWeight:'300'}}>• Exploring nature + hiking</Typography>
         <Typography sx={{fontWeight:'300'}}>• Design/Art/anything creative</Typography>
         <Typography sx={{fontWeight:'300'}}>• Breathwork (hmu for recs)</Typography>
-        <Typography sx={{fontWeight:'500'}} mt={2}>Best ways to reach me</Typography>
+        <Typography sx={{fontWeight:'500'}} mt={2} mb={2}>Best ways to reach me</Typography>
         <Chip sx={{fontWeight:'300'}}label="Twitter" color="primary"variant="filled" onClick={()=>{window.open('https://x.com/Anant_world')}} />
       </div>
     </Container>
