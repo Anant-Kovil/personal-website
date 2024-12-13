@@ -2,16 +2,31 @@ import { Box, Chip, Paper, Typography } from "@mui/material"
 import DailyUpdates from '../../assets/DailyUpdates.png';
 import FashionRecommendation from '../../assets/FashionRecommendation.png'
 import Neurosentry from '../../assets/Neurosentry.png'
+import TastyHealth from '../../assets/TastyHealth.png'
 
 export const Project = () => {
 
   const neurosentryImg = `${Neurosentry}`
   const FashionRecommendationImg = `${FashionRecommendation}`
   const DailyUpdatesImg = `${DailyUpdates}`
+  const TastyHealthImg = `${TastyHealth}`
 
 
   return (
     <div>
+      <Paper variant="outlined" sx={{"&:hover": { boxShadow: 6 }, mb:2, maxWidth:'lg', maxHeight:'md', display: 'flex',   flexDirection: { xs: 'column', md: 'row' },}} elevation={5}>
+      <Box sx={{ml:1.5, mr:1.5, mt: 0.5}}>
+        <Typography variant="h6" sx={{ fontWeight: 500}} >TastyHealth</Typography>
+        <Typography variant="h6" sx={{fontWeight: 300, mb: 1}}>a web app</Typography>
+        <Typography >A platform designed to help you make sense of your blood test results and clarify any concerns before visiting a doctor. Simply upload your PDF report, then engage in an intuitive chat interface to explore the details of your tests. The platform also automatically generates personalized insights to understand your health.
+        </Typography>
+        <Chip sx={{mt:1, mb:1, mr:1}} label="Twitter" color="primary" onClick={()=>{window.open('https://x.com/Anant_world/status/1860875228395798952',"_blank")}} />
+        <Chip sx={{mt:1, mb:1, mr:1}} label="Website" color="primary" onClick={()=>{window.open('https://tastyhealth.vercel.app/')}} />
+      </Box>
+      <Box component='img' sx={{width: '25%'}}
+          src={TastyHealthImg}>
+      </Box>
+    </Paper>
     <Paper variant="outlined" sx={{"&:hover": { boxShadow: 6 }, mb:2, maxWidth:'lg', maxHeight:'md', display: 'flex',   flexDirection: { xs: 'column', md: 'row' },}} elevation={5}>
       <Box sx={{ml:1.5, mr:1.5, mt: 0.5}}>
         <Typography variant="h6" sx={{ fontWeight: 500}} >Neurosentry</Typography>
