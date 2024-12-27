@@ -8,7 +8,7 @@ export const Main = () => {
         <Typography>👋 Hey, hope your day is going well. I'm a Engineer + Designer, exploring the future of human augmentation through devices. I'm also a 4th year student studying CS + Business.</Typography>
         <Typography mt={3}>Building Sunny, an Intelligent Companion designed for elders. Visit <a href="https://sunnycares.org">sunnycares.org</a> to learn more</Typography>
         <Typography mt={3}>Current areas of interest:</Typography>
-        <Typography sx={{fontWeight:'300'}}>• Neurotech</Typography>
+        <Typography sx={{fontWeight:'300'}}>• Voice User Interfaces - VUI</Typography>
         <Typography sx={{fontWeight:'300'}}>• Forms of Communication</Typography>
         <Typography sx={{fontWeight:'300'}}>• Biosensors</Typography>
         <Typography mt={2}>What I like to do in my free time</Typography>
